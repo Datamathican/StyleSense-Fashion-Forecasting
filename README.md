@@ -1,4 +1,4 @@
-```
+
 # StyleSense: Fashion Forward Forecasting
 
 ## Project Overview
@@ -33,4 +33,4 @@ The machine learning pipeline is designed to handle mixed data types without dat
 2. **Categorical Features:** Imputed with a constant value and transformed using `OneHotEncoder` (e.g., Division Name, Department Name).
 3. **Text Features:** Normalized, lemmatized, and stripped of stop words using a custom `spaCy` tokenizer, then vectorized using `TfidfVectorizer` (e.g., Review Text).
 4. **Classifier:** A `RandomForestClassifier` serves as the final prediction model to output the binary recommendation indicator.
-```
+
